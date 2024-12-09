@@ -64,39 +64,11 @@ El proyecto está organizado en varios paquetes que se dividen según su funcion
 ### **1. Paquete `com.judo.datos`**
 Este paquete contiene las clases encargadas de la **gestión de datos** y la **conexión con la base de datos**. Las clases en este paquete interactúan directamente con la base de datos para almacenar y recuperar la información de los jugadores, competiciones, clubes y demás.
 
-- **ArbitroDAO**: Gestión de datos de árbitros.
-- **ClubDAO**: Gestión de datos de clubes.
-- **CompeticionDAO**: Gestión de datos de competiciones.
-- **CompetidorDAO**: Gestión de datos de competidores.
-- **Conexion**: Conexión con la base de datos.
-- **EntrenadorDAO**: Gestión de datos de entrenadores.
-- **IArbitroDAO**, **IClubDAO**, **ICompeticionDAO**, **ICompetidorDAO**, **IEntrenadorDAO**, **IPesoDAO**: Interfaces para la gestión de los datos de árbitros, clubes, competiciones, competidores, entrenadores y pesos.
-
 ### **2. Paquete `com.judo.dominio`**
 Este paquete define las **entidades del negocio** y las relaciones entre ellas, modelando la lógica del juego y los objetos principales.
 
-- **Arbitro**: Representa a los árbitros de las competiciones.
-- **Club**: Representa los clubes de judo. Esta clase es la **clase base** para **Competidor** y **Entrenador**.
-- **Competicion**: Representa las competiciones en las que los jugadores participan.
-- **Competidor**: Representa a los competidores que participan en las competiciones de judo.
-- **Entrenador**: Representa a los entrenadores de los clubes de judo.
-- **Peso**: Define las categorías de peso para los competidores.
-- **Tecnica**: Define las técnicas utilizadas durante los combates.
-
 ### **3. Paquete `com.mycompany.judo`**
 Este paquete contiene las clases relacionadas con la **interfaz de usuario** y la **lógica de interacción** dentro del juego. Abarca desde la pantalla de inicio hasta la lógica de combate y rankings.
-
-- **Clubs**: Muestra los clubes disponibles en el juego.
-- **Competiciones**: Muestra las competiciones disponibles.
-- **Competir**, **CompetirLucha1**, **CompetirLucha2**, **CompetirLucha3**: Contiene la lógica para participar en las competiciones y los combates.
-- **Inicio_Sesion**: Pantalla para el inicio de sesión de los jugadores.
-- **Judo**: Clase principal para iniciar el juego.
-- **Menu**: Menú de opciones para la navegación dentro del juego.
-- **Modificar**: Permite modificar la información del jugador o competidor.
-- **Rankings**: Muestra el ranking de jugadores según su rendimiento en competiciones.
-- **Registrarse**: Pantalla para registrar nuevos usuarios.
-- **Usuario**: Gestiona la información del usuario actual en el sistema.
-- **img**: Contiene las imágenes relacionadas con el juego, como los íconos de los combates.
 
 ### **4. Recursos Adicionales**
 El proyecto también incluye **imágenes** para representar las técnicas y los movimientos durante los combates:
