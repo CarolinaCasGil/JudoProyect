@@ -51,6 +51,10 @@
 5. **Ranking y puntos**:  
    Según tu desempeño, serás clasificado en el ranking por pesos. Gana puntos (100, 80 o 60) dependiendo de tu posición y consulta tu perfil para ver tu puntuación.
 
+   
+https://github.com/user-attachments/assets/e8ad3ec2-4161-4d99-8f0e-9cc3e1b1a9fa
+
+
 ---
 
 ## 🗂️ **Estructura del Proyecto**
