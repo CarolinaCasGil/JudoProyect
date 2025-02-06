@@ -1,55 +1,56 @@
-# 🥋 **Juego de Judo** 🥋
+# 🥋 **Judo Game** 🥋
 
-**Judo Game** es un juego interactivo basado en competiciones de judo. Los jugadores deben registrarse o iniciar sesión para acceder a las diferentes competiciones, clubs, entrenadores y competidores. A medida que compiten, ganan puntos según su rendimiento, lo que los posiciona en un ranking por pesos. ¡Demuestra tu habilidad en combate y escala en el ranking!
-
----
-
-## 🚀 **Funcionalidades Principales**
-
-1. **Registro e Inicio de Sesión**  
-   Los usuarios deben registrarse o iniciar sesión para acceder a la plataforma. Esto garantiza una experiencia personalizada y un seguimiento de los puntos obtenidos en las competiciones.
-
-2. **Visualización de Competencias**  
-   Una vez dentro, los jugadores pueden ver una lista de las competiciones de judo disponibles, con detalles sobre cada una.
-
-3. **Ver Clubs, Entrenadores y Competidores**  
-   - **Clubs**: Una lista de los clubs de judo disponibles en el juego.
-   - **Entrenadores**: Cada club tiene entrenadores que ofrecen consejos y desafíos.
-   - **Competidores**: Los jugadores pueden conocer a los competidores que participan en las competiciones.
-
-4. **Ranking por Pesos**  
-   Los jugadores pueden consultar el **ranking por pesos** para ver cómo se comparan con otros competidores en su categoría de peso.
-
-5. **Modo Competir**  
-   - El jugador puede unirse a un combate aleatorio contra otros competidores.
-   - Durante la competencia, se realizarán **3 combates aleatorios**.
-   - El jugador deberá utilizar **ataques estratégicos** para ganar los combates.
-   - Según el resultado de la competencia (1°, 2° o 3° lugar), se asignarán puntos:
-     - **1er lugar**: 100 puntos.
-     - **2do lugar**: 80 puntos.
-     - **3er lugar**: 60 puntos.
-
-6. **Visualización de Usuario y Puntos**  
-   Los jugadores pueden acceder a su perfil, ver su nombre de usuario y los puntos acumulados a lo largo de las competiciones.
+**Judo Game** is an interactive game based on judo competitions. Players must register or log in to access different competitions, clubs, coaches, and competitors. As they compete, they earn points based on their performance, which positions them in a weight-based ranking. Show off your combat skills and climb the ranking!
 
 ---
 
-## 🎮 **Cómo Jugar**
+## 🚀 **Key Features**
 
-1. **Iniciar sesión o registrarse**:  
-   Para empezar, crea una cuenta o inicia sesión si ya tienes una cuenta.
+1. **Registration and Login**  
+   Users must register or log in to access the platform. This ensures a personalized experience and tracking of points earned in competitions.
 
-2. **Explorar competiciones**:  
-   Una vez dentro, puedes ver las competiciones disponibles y unirte a una de ellas.
+2. **Competition Overview**  
+   Once logged in, players can see a list of available judo competitions, with details about each one.
 
-3. **Ver clubes y entrenadores**:  
-   Consulta los diferentes clubs y entrenadores disponibles, y encuentra el club que mejor se adapte a tu estilo.
+3. **View Clubs, Coaches, and Competitors**  
+   - **Clubs**: A list of available judo clubs in the game.  
+   - **Coaches**: Each club has coaches who provide tips and challenges.  
+   - **Competitors**: Players can learn about the competitors taking part in the competitions.
 
-4. **Competir**:  
-   Entra en una competencia y realiza 3 combates aleatorios. Usa tus habilidades y ataques para ganar.
+4. **Weight-Based Ranking**  
+   Players can view the **weight-based ranking** to see how they compare to other competitors in their weight category.
 
-5. **Ranking y puntos**:  
-   Según tu desempeño, serás clasificado en el ranking por pesos. Gana puntos (100, 80 o 60) dependiendo de tu posición y consulta tu perfil para ver tu puntuación.
+5. **Compete Mode**  
+   - Players can join a random match against other competitors.  
+   - During the competition, **3 random matches** will take place.  
+   - Players must use **strategic attacks** to win the matches.  
+   - Based on the competition result (1st, 2nd, or 3rd place), points will be awarded:  
+     - **1st place**: 100 points  
+     - **2nd place**: 80 points  
+     - **3rd place**: 60 points
+
+6. **User Profile and Points Overview**  
+   Players can access their profile to see their username and accumulated points throughout the competitions.
+
+---
+
+## 🎮 **How to Play**
+
+1. **Log in or Register**:  
+   To get started, create an account or log in if you already have one.
+
+2. **Explore Competitions**:  
+   Once logged in, you can view available competitions and join one of them.
+
+3. **View Clubs and Coaches**:  
+   Check out the different clubs and coaches available, and find the one that best suits your style.
+
+4. **Compete**:  
+   Join a competition and engage in 3 random matches. Use your skills and attacks to win.
+
+5. **Ranking and Points**:  
+   Based on your performance, you will be ranked in the weight-based ranking. Earn points (100, 80, or 60) depending on your position and check your profile to see your score.
+
 
    
 https://github.com/user-attachments/assets/e8ad3ec2-4161-4d99-8f0e-9cc3e1b1a9fa
@@ -57,29 +58,29 @@ https://github.com/user-attachments/assets/e8ad3ec2-4161-4d99-8f0e-9cc3e1b1a9fa
 
 ---
 
-## 🗂️ **Estructura del Proyecto**
+## 🗂️ **Project Structure**
 
-El proyecto está organizado en varios paquetes que se dividen según su funcionalidad y dominio. A continuación se describe la estructura de los paquetes y las clases principales que componen el proyecto:
+The project is organized into several packages divided by functionality and domain. Below is the description of the package structure and the main classes that make up the project:
 
-### **1. Paquete `com.judo.datos`**
-Este paquete contiene las clases encargadas de la **gestión de datos** y la **conexión con la base de datos**. Las clases en este paquete interactúan directamente con la base de datos para almacenar y recuperar la información de los jugadores, competiciones, clubes y demás.
+### **1. Package `com.judo.datos`**
+This package contains the classes responsible for **data management** and **database connection**. The classes in this package directly interact with the database to store and retrieve information about players, competitions, clubs, and more.
 
-### **2. Paquete `com.judo.dominio`**
-Este paquete define las **entidades del negocio** y las relaciones entre ellas, modelando la lógica del juego y los objetos principales.
+### **2. Package `com.judo.dominio`**
+This package defines the **business entities** and the relationships between them, modeling the game logic and main objects.
 
-### **3. Paquete `com.mycompany.judo`**
-Este paquete contiene las clases relacionadas con la **interfaz de usuario** y la **lógica de interacción** dentro del juego. Abarca desde la pantalla de inicio hasta la lógica de combate y rankings.
+### **3. Package `com.mycompany.judo`**
+This package contains classes related to the **user interface** and **interaction logic** within the game. It covers everything from the home screen to the combat logic and rankings.
 
-### **4. Recursos Adicionales**
-El proyecto también incluye **imágenes** para representar las técnicas y los movimientos durante los combates:
+### **4. Additional Resources**
+The project also includes **images** to represent techniques and moves during the matches:
 
-- **ippon**, **ippon2**, **nada**, **nada2**, **wazary**, **wazary2**: Imágenes relacionadas con los diferentes tipos de puntuaciones y movimientos de judo.
+- **ippon**, **ippon2**, **nada**, **nada2**, **wazary**, **wazary2**: Images related to different scoring types and judo movements.
 
 ---
 
-## 🛠️ **Tecnologías Utilizadas**
+## 🛠️ **Technologies Used**
 
-- **Java**: El lenguaje de programación principal para la lógica del juego.
-- **JFrames**: Se utiliza para la creación de la interfaz gráfica de usuario (GUI) para que el jugador interactúe con el juego de forma visual.
-- **MySQL**: Base de datos relacional que almacena la información de los usuarios, competiciones, puntos, clubs y entrenadores.
+- **Java**: The main programming language for the game logic.
+- **JFrames**: Used to create the graphical user interface (GUI) to allow players to interact visually with the game.
+- **MySQL**: A relational database that stores user information, competitions, points, clubs, and coaches.
 
